@@ -52,7 +52,7 @@ const HeroSection = () => {
                 src="/image/hall.png"
                 width={800}
                 height={500}
-                alt=""
+                alt="room interior"
                 className="absolute right-20 xl:h-[448px] xl:w-[700px] lg:h-[344px] lg:w-[500px] hidden lg:block"
                 />
             </div>
