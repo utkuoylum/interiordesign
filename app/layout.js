@@ -1,7 +1,18 @@
-import { Inter } from "next/font/google";
+import { Sen } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+//Components
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
+//Theme Provider
+import { ThemeProvider } from "@/components/ThemeProvider";
+
+const Josef = Sen({ 
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap" 
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -10,8 +21,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={Josef.className}>
+        <ThemeProvider attribute='class' defaultTheme='light'>
+          <Header />
+            {children}
+          <Footer />
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
