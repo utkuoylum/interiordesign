@@ -1,4 +1,4 @@
-// import AboutComponent from "@/components/AboutComponent";
+import AboutComponent from "@/components/AboutComponent";
 // import CatalogSwiperSection from "@/components/CatalogSwiperSection";
 // import CatalogueSection from "@/components/CatalogueSection";
 import CompanySection from "@/components/CompanySection";
@@ -11,8 +11,8 @@ export default function Home() {
     <>
       <HeroSection />
       <CompanySection />
-      {/* <AboutComponent />
-      <CatalogueSection />
+     <AboutComponent />
+      {/*  <CatalogueSection />
       <CatalogSwiperSection />
       <ContactSection /> */}
     </>
