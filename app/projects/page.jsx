@@ -28,7 +28,7 @@ export default function Projects() {
 
   return (
     <div>
-      <div className="bg-[url('/image/backgroundproject.jpg')] bg-center bg-cover">
+      <div className="bg-[url('/image/backgroundproject.jpg')] bg-center bg-cover bg-fixed">
         <h1 className="container py-64 text-6xl font-semibold tracking-widest text-white">Our Projects</h1>
       </div>
 
