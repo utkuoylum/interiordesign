@@ -1,6 +1,6 @@
 import AboutComponent from "@/components/AboutComponent";
 // import CatalogSwiperSection from "@/components/CatalogSwiperSection";
-// import CatalogueSection from "@/components/CatalogueSection";
+import CatalogueSection from "@/components/CatalogueSection";
 import CompanySection from "@/components/CompanySection";
 // import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
@@ -12,8 +12,8 @@ export default function Home() {
       <HeroSection />
       <CompanySection />
      <AboutComponent />
-      {/*  <CatalogueSection />
-      <CatalogSwiperSection />
+     <CatalogueSection />
+      {/*   <CatalogSwiperSection />
       <ContactSection /> */}
     </>
   );
