@@ -45,7 +45,7 @@ const page = () => {
           style={{scale}}
           ref={ref}
           className='w-full'>
-            <Image src="/image/gallery1123.jpg" width={700} height={700} />
+            <Image src="/image/gallery1123.jpg" width={700} height={700} alt='gallery photo'/>
           </motion.div>
 
           {/*Right Content Section */}

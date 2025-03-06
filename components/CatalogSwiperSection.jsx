@@ -50,7 +50,7 @@ export default function CatalogSwiperSection() {
 
             {/* Swiper Section */}
             <Swiper
-            sliderPerView={1}
+            slidesPerView={1}
             breakpoints={{
                 640: {
                     slidesPerView: 2,

@@ -88,7 +88,7 @@ export default function ContactSection() {
                             >
                                 <div className="flex items-center gap-x-4 text-xs">
                                     <time dateTime={post.datetime}>
-                                        <Image src="/image/star.svg" width={80} height={5} />
+                                        <Image src="/image/star.svg" width={80} height={5} alt='contact'/>
                                     </time>
                                     <a 
                                     href={post.category.href}
